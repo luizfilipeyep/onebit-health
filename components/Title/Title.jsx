@@ -1,11 +1,13 @@
-import { Text, View } from 'react-native';
-import Main from '../Main/Main';
+import { Text, View } from 'react-native'
+import Form from '../Form/Form';
+
+import styles from './style';
 
 function Title() {
   return ( 
-    <View>
-      <Text>ONEBITHEALTH</Text>
-      <Main />
+    <View style={styles.boxTitle}>
+      <Text style={styles.textTitle}>ONEBITHEALTH</Text>
+      <Form />
     </View>   
   );
 }
